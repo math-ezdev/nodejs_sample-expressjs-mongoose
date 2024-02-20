@@ -1,0 +1,31 @@
+# users
+
+
+### getAll
+GET http://localhost:3000/users
+
+
+### get
+GET http://localhost:3000/users/1
+
+
+### add
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Manh Thai"
+}
+
+
+### remove
+DELETE http://localhost:3000/users/65d51bd1518e6cd4ff15149d
+
+
+### set
+PATCH http://localhost:3000/users/65d51bd1518e6cd4ff1514a1
+Content-Type: application/json
+
+{
+    "name": "math-ezdev"
+}
