@@ -2,11 +2,7 @@
 
 
 ### getAll
-GET http://localhost:3000/users
-
-
-### get
-GET http://localhost:3000/users/1
+GET http://localhost:3000/users/fa/fae
 
 
 ### add
@@ -18,12 +14,16 @@ Content-Type: application/json
 }
 
 
+### get
+GET http://localhost:3000/users/1
+
+
 ### remove
-DELETE http://localhost:3000/users/65d51bd1518e6cd4ff15149d
+DELETE http://localhost:3000/users/65d5bd22b1e8a25d01b9c3bf
 
 
 ### set
-PATCH http://localhost:3000/users/65d51bd1518e6cd4ff1514a1
+PATCH http://localhost:3000/users/65d5bc4ae519a3411c701ef1
 Content-Type: application/json
 
 {

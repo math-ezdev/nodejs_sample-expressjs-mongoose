@@ -9,7 +9,6 @@ const UserScheme = new mongoose.Schema(
     },
   },
   {
-    collection: "user",
     versionKey: false,
   }
 );

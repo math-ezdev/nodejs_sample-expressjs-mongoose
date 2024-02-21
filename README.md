@@ -59,9 +59,10 @@
 - mongoose
 - dotenv
 - nodemon
+- http-errors
 ```
 > [!TIP]
-> should start server using: npm run [scripts]
+> should start server using: `npm run [scripts]`
 
 
 # URL Components
